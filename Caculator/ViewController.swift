@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     var isUserClickTheButton=false;
     
     var cacutator=CaculatorBrain()
-    
+     
     var displayValue:Double{
         get{
             return Double(display.text!)!
